@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
 Auto-comment script.
-Reads your approval comment like "approve #3 #7" and posts
-assignment-request comments on those issues.
+Reads your approval comment like "approve 23 36 37" and posts
+assignment-request comments on those digest items.
+
+The numbers refer to the item numbers in the Daily Digest issue
+(1. Issue title, 2. Issue title, etc.) — NOT GitHub issue numbers.
 """
 
 import os
@@ -19,12 +22,7 @@ I'm **Kiran Shams**, a web developer and open source contributor (JavaScript / P
 
 I'd love to work on this issue! I've read through the issue description{contrib_note} and I have a clear understanding of what needs to be done.
 
-**My plan:**
-- Review the existing codebase around this issue
-- Implement the fix/feature with proper tests
-- Submit a clean PR following your contribution guidelines
-
-Could you please assign this to me? I'll have a draft PR ready within a few days. 🙏
+Could you please assign this to me? I'll have a draft PR ready within a few days. 
 
 ---
 *Found via [good-first-issues-finder](https://github.com/kiranShamsHere/good-first-issues-finder)*
@@ -37,7 +35,7 @@ class GitHub:
     def __init__(self, token):
         self.s = requests.Session()
         self.s.headers.update({
-            "Authorization": f"token {token}",
+            "Authorization": f"Bearer {token}",
             "Accept": "application/vnd.github+json",
         })
 
@@ -54,9 +52,6 @@ class GitHub:
         r.raise_for_status()
         return r.json()
 
-    def get_issue(self, owner, repo, number):
-        return self.get(f"/repos/{owner}/{repo}/issues/{number}")
-
     def has_contributing(self, owner, repo):
         for path in ["CONTRIBUTING.md", "docs/CONTRIBUTING.md", ".github/CONTRIBUTING.md"]:
             try:
@@ -67,24 +62,31 @@ class GitHub:
         return False
 
 
-def parse_approved_indices(comment: str) -> list:
+def parse_indices(comment: str) -> list:
     """
-    Parse indices from a comment like:
-    'approve #3 #7' or 'approve 3, 7' or 'approve 3 7'
-    Returns list of 1-based integers.
+    Parse digest item numbers from approval comment.
+    Handles all formats:
+      approve 23 36 37
+      approve #23 #36 #37
+      approve 23, 36, 37
+    Returns list of integers (1-based digest indices).
     """
-    numbers = re.findall(r'#?(\d+)', comment)
-    return [int(n) for n in numbers]
+    # Remove the word 'approve' first
+    text = re.sub(r'\bapprove\b', '', comment, flags=re.IGNORECASE)
+    # Extract all numbers (with or without #)
+    numbers = re.findall(r'#?(\d+)', text)
+    return [int(n) for n in numbers if int(n) > 0]
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--token", required=True)
-    parser.add_argument("--comment", required=True, help="The approval comment body")
-    parser.add_argument("--issues-file", default="found-issues.json")
+    parser.add_argument("--token",        required=True)
+    parser.add_argument("--comment",      required=True,
+                        help="The approval comment body e.g. 'approve 23 36 37'")
+    parser.add_argument("--issues-file",  default="found-issues.json")
     args = parser.parse_args()
 
-    # Load the saved issues
+    # Load saved issues
     try:
         with open(args.issues_file) as f:
             all_issues = json.load(f)
@@ -92,36 +94,45 @@ def main():
         print(f"❌ Issues file not found: {args.issues_file}")
         sys.exit(1)
 
-    approved_indices = parse_approved_indices(args.comment)
-    if not approved_indices:
-        print("No issue indices found in the approval comment.")
+    if not all_issues:
+        print("❌ Issues file is empty.")
+        sys.exit(1)
+
+    indices = parse_indices(args.comment)
+
+    if not indices:
+        print("⚠️  No numbers found in comment. Nothing to do.")
+        print(f"   Comment was: {args.comment}")
         sys.exit(0)
 
-    print(f"📋 Approved indices: {approved_indices}")
+    print(f"📋 Digest items to comment on: {indices}")
+    print(f"📦 Total issues in digest: {len(all_issues)}")
+
     gh = GitHub(args.token)
 
-    for idx in approved_indices:
+    for idx in indices:
+        # idx is 1-based (matching the "1. Title" numbering in the digest)
         if idx < 1 or idx > len(all_issues):
-            print(f"⚠️  Index {idx} out of range (1–{len(all_issues)}), skipping.")
+            print(f"\n⚠️  #{idx} is out of range (digest has 1–{len(all_issues)}), skipping.")
             continue
 
-        issue = all_issues[idx - 1]
-        owner = issue["owner"]
-        repo = issue["repo"]
-        number = issue["number"]
+        issue = all_issues[idx - 1]  # convert to 0-based list index
+        owner      = issue["owner"]
+        repo       = issue["repo"]
+        number     = issue["number"]
         maintainer = issue.get("user", "maintainer")
 
-        print(f"\n🎯 Processing: {issue['title'][:60]}")
-        print(f"   {issue['url']}")
+        print(f"\n🎯 Item #{idx}: {issue['title'][:60]}")
+        print(f"   Repo   : {owner}/{repo}")
+        print(f"   Issue  : #{number}")
+        print(f"   URL    : {issue['url']}")
 
-        # Check for CONTRIBUTING.md
         has_contrib = gh.has_contributing(owner, repo)
         contrib_note = (
             ", the README, and the CONTRIBUTING.md" if has_contrib
             else " and the README"
         )
 
-        # Build comment
         body = COMMENT_TEMPLATE.format(
             maintainer=maintainer,
             contrib_note=contrib_note,
@@ -131,7 +142,7 @@ def main():
             gh.post_comment(owner, repo, number, body)
             print(f"   ✅ Comment posted!")
         except Exception as e:
-            print(f"   ❌ Failed: {e}")
+            print(f"   ❌ Failed to post comment: {e}")
 
     print("\n✅ Done!")
 
