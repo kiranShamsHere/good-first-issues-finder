@@ -1,0 +1,610 @@
+[
+  {
+    "title": "Translate `reference/import.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3843",
+    "number": 3843,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 1,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/reference/import.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `reference/import.po`:\n\n* Fuzzy: 30\n* Percent translated: 95.5%\n* Entries: 213 / 223\n* Untranslated: 10\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:36:36Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `reference/executionmodel.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3842",
+    "number": 3842,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 2,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/reference/executionmodel.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `reference/executionmodel.po`:\n\n* Fuzzy: 4\n* Percent translated: 98.1%\n* Entries: 105 / 107\n* Untranslated: 2\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:36:30Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `reference/expressions.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3840",
+    "number": 3840,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/reference/expressions.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `reference/expressions.po`:\n\n* Fuzzy: 12\n* Percent translated: 98.0%\n* Entries: 539 / 550\n* Untranslated: 11\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:36:17Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `reference/compound_stmts.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3838",
+    "number": 3838,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/reference/compound_stmts.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `reference/compound_stmts.po`:\n\n* Fuzzy: 13\n* Percent translated: 97.7%\n* Entries: 469 / 480\n* Untranslated: 11\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:36:04Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `reference/grammar.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3837",
+    "number": 3837,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/reference/grammar.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `reference/grammar.po`:\n\n* Fuzzy: 1\n* Percent translated: 66.7%\n* Entries: 4 / 6\n* Untranslated: 2\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:35:58Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `c-api/float.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3834",
+    "number": 3834,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/c-api/float.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `c-api/float.po`:\n\n* Fuzzy: 5\n* Percent translated: 97.2%\n* Entries: 35 / 36\n* Untranslated: 1\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:35:39Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `c-api/contextvars.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3832",
+    "number": 3832,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/c-api/contextvars.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `c-api/contextvars.po`:\n\n* Fuzzy: 0\n* Percent translated: 81.6%\n* Entries: 31 / 38\n* Untranslated: 7\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:35:27Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `c-api/sys.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3831",
+    "number": 3831,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/c-api/sys.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `c-api/sys.po`:\n\n* Fuzzy: 1\n* Percent translated: 89.2%\n* Entries: 74 / 83\n* Untranslated: 9\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:35:20Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `c-api/stable.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3829",
+    "number": 3829,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/c-api/stable.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `c-api/stable.po`:\n\n* Fuzzy: 11\n* Percent translated: 73.3%\n* Entries: 33 / 45\n* Untranslated: 12\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:35:08Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "Translate `c-api/import.po`",
+    "url": "https://github.com/python/python-docs-es/issues/3828",
+    "number": 3828,
+    "owner": "python",
+    "repo": "python-docs-es",
+    "labels": [
+      "good first issue",
+      "3.14"
+    ],
+    "comments": 0,
+    "body": "This needs to reach 100% translated.\n\nThe rendered version of this file will be available at https://docs.python.org/es/3.14/c-api/import.html once translated.\nMeanwhile, the English version is shown.\n\nCurrent stats for `c-api/import.po`:\n\n* Fuzzy: 7\n* Percent translated: 95.5%\n* Entries: 63 / 66\n* Untranslated: 3\n\nPlease, comment here if you want this file to be assigned to you and an member will assign it to you as soon as possible, so you can start working on it.\n\nRemember to follow the steps in our [Contributing Guide](https://python-docs-es.readthedocs.io/page/CONTRIBUTING.html).",
+    "created_at": "2026-02-26T23:35:01Z",
+    "user": "cmaureir"
+  },
+  {
+    "title": "await-not-async missed & false alarms with genexp and list comprehensions",
+    "url": "https://github.com/python/mypy/issues/18124",
+    "number": 18124,
+    "owner": "python",
+    "repo": "mypy",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "topic-runtime-semantics",
+      "topic-async"
+    ],
+    "comments": 4,
+    "body": "**Bug Report**\r\n\r\nawait-not-async does not warn on `async for` in list and dict comprehensions, and incorrectly does give a warning for `await` inside `GeneratorExp.elt`.\r\nFor list & dict comprehensions you should error on any `await` or `async for`, but for generator expressions it's only the generator that should be checked.\r\n\r\n**To Reproduce**\r\n\r\n```python\r\ndef foo():\r\n    ...\r\n\r\ndef should_not_error():\r\n    (await x for x in foo())\r\n\r\ndef should_error():\r\n    [x async for x in foo()]\r\n    {k: v async for k, v in foo()}\r\n\r\ndef correctly_errors():\r\n    (x for x in await foo())\r\n    [await x for x in foo()]\r\n\r\ndef correctly_does_not_error():\r\n    (x async for x in foo())\r\n```\r\n\r\n**Expected Behavior**\r\n\r\nIt should error on 8, 9, 12 and 13\r\n\r\n**Actual Behavior**\r\n\r\n```sh\r\n$ mypy foofoo.py\r\n",
+    "created_at": "2024-11-07T16:58:26Z",
+    "user": "jakkdl"
+  },
+  {
+    "title": "Mypy signals error with Protocol and __rpow__ method with three arguments",
+    "url": "https://github.com/python/mypy/issues/10786",
+    "number": 10786,
+    "owner": "python",
+    "repo": "mypy",
+    "labels": [
+      "bug",
+      "topic-protocols",
+      "good-first-issue"
+    ],
+    "comments": 3,
+    "body": "Okay, _**this**_ is a head-scratcher. \ud83d\ude15\r\n\r\n**To Reproduce**\r\n\r\n```python\r\n# test_case.py\r\nfrom typing import Protocol, overload, runtime_checkable\r\n@runtime_checkable\r\nclass PowableProto(Protocol):\r\n    @overload\r\n    def __pow__(self, other: \"PowableProto\") -> \"PowableProto\":\r\n        ...\r\n    @overload\r\n    def __pow__(self, other: \"PowableProto\", modulo: \"PowableProto\") -> \"PowableProto\":  # <- fine\r\n        ...\r\n    @overload\r\n    def __rpow__(self, other: \"PowableProto\") -> \"PowableProto\":\r\n        ...\r\n    @overload\r\n    def __rpow__(self, other: \"PowableProto\", modulo: \"PowableProto\") -> \"PowableProto\":  # <- this (of all things) breaks\r\n        ...\r\n    @overload\r\n    def __rpOw__(self, other: \"PowableProto\") -> \"PowableProto\":\r\n        ...\r\n    @overload\r\n    def __rpOw__(self, ot",
+    "created_at": "2021-07-08T23:19:34Z",
+    "user": "posita"
+  },
+  {
+    "title": "Stubgen skips \"vendor\" directory",
+    "url": "https://github.com/python/mypy/issues/9599",
+    "number": 9599,
+    "owner": "python",
+    "repo": "mypy",
+    "labels": [
+      "bug",
+      "good-first-issue",
+      "topic-stubgen"
+    ],
+    "comments": 3,
+    "body": "**Bug Report**\r\n\r\nStubgen skips over a directory called vendor without any error message.\r\n\r\n**To Reproduce**\r\n\r\nCreate a project with this structure\r\n\r\n```\r\na\r\n  __init__.py\r\n  vendor\r\n    __init__.py\r\n```\r\n\r\n2. Run `stubgen a`\r\n\r\n3. All that gets generated is `out/a/__init__.pyi`\r\n\r\nI would expect the output to include `out/a/vendor/__init__.pyi`\r\n\r\nRunning `stubgen a/vendor` also fails to generate `out/a/vendor/__init__.pyi`, but cd'ing into `a` and then running `stubgen vendor` creates `a/out/vendor/__init__.pyi`\r\n\r\n**Your Environment**\r\n\r\n<!-- Include as many relevant details about the environment you experienced the bug in -->\r\n\r\n- Mypy version used: 0.790\r\n- Mypy command-line flags: Included in problem description\r\n- Mypy configuration options from `mypy.ini` (and other config files",
+    "created_at": "2020-10-15T14:51:44Z",
+    "user": "ericstarr"
+  },
+  {
+    "title": "Better message if override violates Liskov substitution principle",
+    "url": "https://github.com/python/mypy/issues/7994",
+    "number": 7994,
+    "owner": "python",
+    "repo": "mypy",
+    "labels": [
+      "documentation",
+      "priority-1-normal",
+      "topic-usability",
+      "good-first-issue"
+    ],
+    "comments": 4,
+    "body": "Some users don't understand why mypy complains about incompatible overrides. We could add an extra note in cases where the argument type is narrower in an override or the return type is wider (or all incompatible overrides). The note could mention Liskov substitution principle and add a link to mypy documentation (add a new section to https://mypy.readthedocs.io/en/latest/common_issues.html perhaps). We can also mention that `# type: ignore[override]` can be used to silence this error.\r\n\r\n#7992 is an example where this came up, but several users have been confused about this.\r\n",
+    "created_at": "2019-11-21T14:35:08Z",
+    "user": "JukkaL"
+  },
+  {
+    "title": "PEP 572: Test interaction with `--allow-redefinition`",
+    "url": "https://github.com/python/mypy/issues/7314",
+    "number": 7314,
+    "owner": "python",
+    "repo": "mypy",
+    "labels": [
+      "good-first-issue",
+      "topic-tests",
+      "topic-pep-572"
+    ],
+    "comments": 3,
+    "body": "Followup from #6899",
+    "created_at": "2019-08-10T17:01:15Z",
+    "user": "JelleZijlstra"
+  },
+  {
+    "title": "incomplete fix for memory leak in array.array",
+    "url": "https://github.com/python/cpython/issues/148484",
+    "number": 148484,
+    "owner": "python",
+    "repo": "cpython",
+    "labels": [
+      "type-bug",
+      "extension-modules",
+      "easy"
+    ],
+    "comments": 1,
+    "body": "# Bug report\n\n### Bug description:\n\n#140474\n\nThe array.array constructor leaks a range_iterator object (64 bytes) when it is given an invalid typecode along with a range object as the initializer. The constructor calls PyObject_GetIter() on the initializer before validating the typecode, allocating a range_iterator via fast_range_iter. When the typecode validation subsequently fails with ValueError: bad typecode, the iterator is not decremented and is leaked.\n\n```python\nimport array\n\narray.array('\\u200e', range(5))\n```\n\n```\nValueError: bad typecode (must be b, B, u, w, h, H, i, I, l, L, q, Q, f or d)\n\n=================================================================\n==ERROR: LeakSanitizer: detected memory leaks\n\nDirect leak of 64 byte(s) in 1 object(s) allocated from:\n    #0 malloc\n    #1 ",
+    "created_at": "2026-04-13T02:41:52Z",
+    "user": "YuanchengJiang"
+  },
+  {
+    "title": "`unsafe_{latin,long,float}_compare` have an `assert` that assumes `PyObject_RichCompareBool` can't fail",
+    "url": "https://github.com/python/cpython/issues/148268",
+    "number": 148268,
+    "owner": "python",
+    "repo": "cpython",
+    "labels": [
+      "interpreter-core",
+      "easy",
+      "type-crash"
+    ],
+    "comments": 5,
+    "body": "# Crash report\n\n### What happened?\n\nAdded in https://github.com/python/cpython/commit/1e34da49ef22004ca25c517b3f07c6d25f083ece, we assert that:\nhttps://github.com/python/cpython/blob/eab7dbda3b7502f0a952901a80fb5e628ccd7a28/Objects/listobject.c#L2858\n\nHowever, [`PyObject_RichCompareBool`](https://docs.python.org/3/c-api/object.html#c.PyObject_RichCompareBool) can fail and return `-1` on error, triggering the assert.\n\nFound by OSS Fuzz in [#444686879](https://issues.oss-fuzz.com/issues/444686879).\n\nCC @rhettinger and @tim-one \n\n### CPython versions tested on:\n\nCPython main branch\n\n### Operating systems tested on:\n\n_No response_\n\n### Output from running 'python -VV' on the command line:\n\n_No response_\n\n<!-- gh-linked-prs -->\n### Linked PRs\n* gh-148309\n<!-- /gh-linked-prs -->\n",
+    "created_at": "2026-04-08T20:00:28Z",
+    "user": "StanFromIreland"
+  },
+  {
+    "title": "Use interned versions of string constants if they're already present",
+    "url": "https://github.com/python/cpython/issues/140328",
+    "number": 140328,
+    "owner": "python",
+    "repo": "cpython",
+    "labels": [
+      "type-feature",
+      "performance",
+      "interpreter-core",
+      "easy"
+    ],
+    "comments": 5,
+    "body": "# Feature or enhancement\n\n### Proposal:\n\nFor now `intern_constants` function in `Objects/codeobject.c` uses `should_intern_string` to check if that string should be interned. And do nothing if `should_intern_string` returned `0`. Maybe it'll be better to check if this string already have interned variant and use it if present? Because there's no need to keep equal strings in memory. The small downside is some time needed for this checking.\n\n### Has this already been discussed elsewhere?\n\nNo response given\n\n### Links to previous discussion of this feature:\n\n_No response_\n\n<!-- gh-linked-prs -->\n### Linked PRs\n* gh-140688\n<!-- /gh-linked-prs -->\n",
+    "created_at": "2025-10-19T10:13:55Z",
+    "user": "efimov-mikhail"
+  },
+  {
+    "title": "A \"dev\" version of the REPL",
+    "url": "https://github.com/sympy/live/issues/28",
+    "number": 28,
+    "owner": "sympy",
+    "repo": "live",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 1,
+    "body": "- [ ] Figure out nightly wheel machinery\n\t- [x] Investigate how to host both REPLs at the same time\n\t- [ ] Finalise where to host the nightly one\n- [ ] Add a dropdown menu to switch between REPLs\n\n_Originally posted by @agriyakhetarpal in https://github.com/sympy/live/pull/26#issuecomment-2597303629_",
+    "created_at": "2025-01-20T18:47:52Z",
+    "user": "agriyakhetarpal"
+  },
+  {
+    "title": "Icon colour doesn't match in napari's light theme.",
+    "url": "https://github.com/matplotlib/napari-matplotlib/issues/141",
+    "number": 141,
+    "owner": "matplotlib",
+    "repo": "napari-matplotlib",
+    "labels": [
+      "good first issue",
+      "Styling"
+    ],
+    "comments": 0,
+    "body": "Our MPL toolbar icons are simple inversions (black) of the white ones (for dark mode).\r\nBut Napari's light mode uses a brownish grey and the icons have a button border.\r\n\r\nThis can probably be fixed in the same way that napari recolours their icons on their `QPushButton`s in the UI.",
+    "created_at": "2023-06-01T09:10:24Z",
+    "user": "samcunliffe"
+  },
+  {
+    "title": "External learning resources ",
+    "url": "https://github.com/matplotlib/mpl-third-party/issues/71",
+    "number": 71,
+    "owner": "matplotlib",
+    "repo": "mpl-third-party",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 1,
+    "body": "So got a request to add https://www.python-graph-gallery.com/ to the mpl docs & wondering now if this repo can be used to spawn a second page to replace https://matplotlib.org/stable/resources/index.html#books-chapters-and-articles. or maybe a second version of this repo for that kind of thing, since presumably we want a slightly higher barrier to entry but there are lots of folks building really good learning resources and it might be useful to have a place they can self register.",
+    "created_at": "2021-06-30T16:21:17Z",
+    "user": "story645"
+  },
+  {
+    "title": "Use srec_cat (or a similar tool) instead of hexmate to merge bootloader and application images",
+    "url": "https://github.com/fossasia/pslab-firmware/issues/199",
+    "number": 199,
+    "owner": "fossasia",
+    "repo": "pslab-firmware",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "comments": 1,
+    "body": "We currently use hexmate, a microchip tool, to merge the bootloader and application HEX files. See https://github.com/fossasia/pslab-firmware/blob/0285f6d5962b028795976049a783ca2e6551fe06/.github/workflows/main-builder.yml#L90.\n\nHexmate is proprietary and is only distributed as part of either the xc8 compiler or the mplab-x IDE. It would be preferable to use a free, standalone tool instead.\n\nThere are many free tools available for manipulating eeprom images. [SRecord](https://srecord.sourceforge.net/) is a collection of such tools, including srec_cat which should be suitable for this task. Another option is to use the [bincopy](https://github.com/eerimoq/bincopy) python package. Many other alternatives likely exists.\n\nThe task is to duplicate the result of merging with hexmate. The output ",
+    "created_at": "2025-04-04T07:03:50Z",
+    "user": "bessman"
+  },
+  {
+    "title": "Unwanted console.log in /js/Oauth.js",
+    "url": "https://github.com/fossasia/labyrinth/issues/1062",
+    "number": 1062,
+    "owner": "fossasia",
+    "repo": "labyrinth",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 4,
+    "body": "The console.log('Hey') should be removed.\r\n\r\nRefactoring the code would be helpful too.",
+    "created_at": "2019-11-30T07:20:14Z",
+    "user": "YashKumarVerma"
+  },
+  {
+    "title": "Add more languages",
+    "url": "https://github.com/fossasia/labyrinth/issues/393",
+    "number": 393,
+    "owner": "fossasia",
+    "repo": "labyrinth",
+    "labels": [
+      "enhancement",
+      "good first issue",
+      "quality"
+    ],
+    "comments": 5,
+    "body": "### Expected results\r\n- [x] Add \"how to play\" File in more languages.\r\n- [x] Show about in different languages.\r\n\r\n### Actual results\r\nNo traslations\r\n\r\n### Steps to reproduce the issue\r\nTry jekyll plugin\r\n\r\n## Would you like to work on this\r\nI am working to add Sinhala language, Get together to add all other languages.",
+    "created_at": "2018-01-11T06:30:47Z",
+    "user": "supunTE"
+  },
+  {
+    "title": "Session logs out on screen resize despite \"Keep me logged in\" enabled",
+    "url": "https://github.com/fossasia/eventyay/issues/2222",
+    "number": 2222,
+    "owner": "fossasia",
+    "repo": "eventyay",
+    "labels": [
+      "beginner friendly"
+    ],
+    "comments": 2,
+    "body": "<!-- Please only create issues for bug reports. Feature requests or general questions should start as a \"Discussion\" on GitHub. -->\n\n**Describe the bug**  \nWhen the screen resolution or viewport size is changed, the user session is unexpectedly invalidated even after selecting **Keep me logged in** during login. Specifically, after resizing the screen and navigating to **Settings**, the user is logged out and redirected to the login page.\n\n**Expected behavior**  \nOnce **Keep me logged in** is enabled, the user session should persist across screen resolution or viewport changes. Navigating to internal pages such as Settings should not trigger a logout unless the session has genuinely expired or the user explicitly logs out.\n\n**Screenshots**  \n\nhttps://github.com/user-attachments/assets/2018",
+    "created_at": "2026-02-02T18:16:46Z",
+    "user": "ArnavBallinCode"
+  },
+  {
+    "title": "Navigation Icons Overlapping with Event Header on Mobile/Talk View",
+    "url": "https://github.com/fossasia/eventyay/issues/2191",
+    "number": 2191,
+    "owner": "fossasia",
+    "repo": "eventyay",
+    "labels": [
+      "beginner friendly",
+      "design sprint"
+    ],
+    "comments": 2,
+    "body": "## Navigation Icons Overlapping with Event Header on Mobile/Talk View\n\n\n### Describe the bug\nOn the Talk dashboard/event view, circular navigation/action icons are appearing directly below the main navigation tabs (Start, Tickets, Talk, Videos) and overlapping with the event information content. This creates a cluttered, confusing interface where multiple navigation layers compete for space in the header area.\n\n\n### Expected behavior\n- Circular action icons should either be:\n  - Properly positioned in a dedicated action bar with clear separation from navigation tabs\n- Navigation header should have clean visual hierarchy\n- No overlapping elements in the header region\n\n\n### Screenshots\n\n![Image](https://github.com/user-attachments/assets/517f1d2c-5718-4600-8e97-a45b8799bf6b)\n\n**Expected Beha",
+    "created_at": "2026-01-31T07:45:45Z",
+    "user": "ArnavBallinCode"
+  },
+  {
+    "title": "Navigation Button Border Radius Inconsistency Between Tickets and Talk Components",
+    "url": "https://github.com/fossasia/eventyay/issues/1156",
+    "number": 1156,
+    "owner": "fossasia",
+    "repo": "eventyay",
+    "labels": [
+      "beginner friendly",
+      "design sprint"
+    ],
+    "comments": 2,
+    "body": "<!-- Please only create issues for bug reports. Feature requests or general questions should start as a \"Discussion\" on GitHub. -->\n\n**Describe the bug**\nThe navigation buttons (Home, Tickets, Talk, Videos) display inconsistent border styling across different components of the EventYay platform. When viewing the Tickets component, the navigation buttons have sharp, rectangular corners, but when switching to the Talk component, the same navigation buttons display with rounded corners. This creates a jarring visual inconsistency that affects the overall user experience and design coherence.\n\n**Expected behavior**\nNavigation buttons should maintain consistent styling across all components of the platform. All navigation buttons (Home, Tickets, Talk, Videos) should have the same border-radius ",
+    "created_at": "2025-10-30T12:56:25Z",
+    "user": "ArnavBallinCode"
+  },
+  {
+    "title": "Make build fail when APK did not compile",
+    "url": "https://github.com/fossasia/flappy-svg/issues/264",
+    "number": 264,
+    "owner": "fossasia",
+    "repo": "flappy-svg",
+    "labels": [
+      "easy"
+    ],
+    "comments": 2,
+    "body": "In order to see if the APK compiles, make the build fail when something like this occurs:\r\nhttps://travis-ci.org/fossasia/flappy-svg#L312\r\n\r\nThis can be done in a shell script with\r\n\r\n    set -e\r\n\r\nat the beginning or checking of the commands and adding `exit ...`.",
+    "created_at": "2017-01-16T08:58:25Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Add the CCCC guidelines to contributing.md",
+    "url": "https://github.com/fossasia/kniteditor/issues/41",
+    "number": 41,
+    "owner": "fossasia",
+    "repo": "kniteditor",
+    "labels": [
+      "easy"
+    ],
+    "comments": 1,
+    "body": "They are from this talk: [Tech Mesh 2012 - Social Architecture 101 - Pieter Hintjens](https://www.youtube.com/watch?v=uj-li0LO_2g)\n",
+    "created_at": "2016-10-07T21:01:29Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Use download from github releases",
+    "url": "https://github.com/fossasia/kniteditor/issues/37",
+    "number": 37,
+    "owner": "fossasia",
+    "repo": "kniteditor",
+    "labels": [
+      "ready",
+      "easy",
+      "website"
+    ],
+    "comments": 0,
+    "body": "The dowload page should use the releases from github.\n",
+    "created_at": "2016-08-26T23:28:53Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Create About Dialog",
+    "url": "https://github.com/fossasia/kniteditor/issues/34",
+    "number": 34,
+    "owner": "fossasia",
+    "repo": "kniteditor",
+    "labels": [
+      "ready",
+      "easy"
+    ],
+    "comments": 0,
+    "body": "It should\n- [ ] show the version, if you click it, it opens a webbrowser to the releases\n- [ ] show the latest version, if you click it, it opens a webbrowser to the releases\n- [ ] have a link to the welcome site of the kniteditor\n- [ ] be possible to close the dialog\n- [ ] be possible to open it from the main menu\n",
+    "created_at": "2016-08-21T13:13:32Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Create MacOSX intro tutorials",
+    "url": "https://github.com/fossasia/kniteditor/issues/30",
+    "number": 30,
+    "owner": "fossasia",
+    "repo": "kniteditor",
+    "labels": [
+      "ready",
+      "easy"
+    ],
+    "comments": 0,
+    "body": "Like with Windows and Ubuntu, we need installation tutorials for the Mac operating system.\n- [ ] setup tutorial\n- [ ] run the tests tutorial\n\nHints:\n- You can view the other tutorials in [this playlist](https://www.youtube.com/watch?v=zz3e3wrP75E&list=PL_bQhtrnWFA8skye4GpQ2Y8kEHxLwQKHY&index=2)\n- You can view installation instructions in the automated [build folder](https://github.com/fossasia/kniteditor/tree/master/mac-build)\n- This should be done with a mac which does not have set up anything\n- If you are able to install brew and packages not as superuser but locally, this is a bonus.\n",
+    "created_at": "2016-08-18T18:01:13Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Move stdout and stderr into log",
+    "url": "https://github.com/fossasia/kniteditor/issues/29",
+    "number": 29,
+    "owner": "fossasia",
+    "repo": "kniteditor",
+    "labels": [
+      "ready",
+      "easy"
+    ],
+    "comments": 0,
+    "body": "Kivy should be able to log stdout and stderr input.\nThis is specially useful for `traceback` prints and `print` statements.\n",
+    "created_at": "2016-08-12T08:39:33Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Make actions list scrollable",
+    "url": "https://github.com/fossasia/kniteditor/issues/27",
+    "number": 27,
+    "owner": "fossasia",
+    "repo": "kniteditor",
+    "labels": [
+      "bug",
+      "ready",
+      "easy"
+    ],
+    "comments": 0,
+    "body": "The list of actions should be scroll-able so that the entries do not overlap.\n",
+    "created_at": "2016-08-12T06:46:33Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Add description",
+    "url": "https://github.com/fossasia/knitAYABInterface/issues/10",
+    "number": 10,
+    "owner": "fossasia",
+    "repo": "knitAYABInterface",
+    "labels": [
+      "ready",
+      "easy"
+    ],
+    "comments": 3,
+    "body": "The actions should be translated. Localization and filling in values can work like this:\n\n```\naction.translate(gettext)\naction.english()  # returns the English string (default)\n```\n\n`gettext` is a `gettext.gettext` instance.\n",
+    "created_at": "2016-08-10T20:02:57Z",
+    "user": "niccokunzmann"
+  },
+  {
+    "title": "Tutorials/Organizing Code with Funtions: Comments say \"draw two trees\" but actually draw three",
+    "url": "https://github.com/processing/p5.js-website/issues/1319",
+    "number": 1319,
+    "owner": "processing",
+    "repo": "p5.js-website",
+    "labels": [
+      "Documentation",
+      "Good First Issue"
+    ],
+    "comments": 5,
+    "body": "<img width=\"551\" height=\"460\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6a57cd55-23ec-48dc-bec7-25e4d4f0b3b4\" />\n\n<img width=\"615\" height=\"584\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc4059e0-73bc-4660-a5ce-444fd32d8c2e\" />\n\nIn Step 6 of this tutorial, the comment line above the `trees()` function says `draw two trees`, but instead there are three trees in the `trees()` function.",
+    "created_at": "2026-04-08T09:03:32Z",
+    "user": "Chiuye"
+  },
+  {
+    "title": "[main & 2.0] Side navigation dropdown arrows in both panels should have 27.5px top padding",
+    "url": "https://github.com/processing/p5.js-website/issues/1295",
+    "number": 1295,
+    "owner": "processing",
+    "repo": "p5.js-website",
+    "labels": [
+      "Bug",
+      "Good First Issue",
+      "Discussion"
+    ],
+    "comments": 1,
+    "body": "### Most appropriate sections of the p5.js website?\n\nReference\n\n### What is your operating system?\n\nWindows\n\n### Web browser and version\n\nChrome 146.0.7\n\n### Actual Behavior\n\nThe dropdown arrows in both the primary and secondary navigation panels do not have the correct top padding on both main and 2.0 branches. This is part of the ongoing CSS audit in #309.\n\n### Expected Behavior\n\nBoth dropdown arrows in the primary and secondary panels should have padding-top: 27.5px\n\n### Steps to reproduce\n\nGo to any page on p5js.org or beta.p5js.org that has a side navigation panel\nOpen Chrome DevTools\nInspect the dropdown arrows in both the primary and secondary panels\n\n### Would you like to work on the issue?\n\nOpen for anyone to work on",
+    "created_at": "2026-04-02T14:42:14Z",
+    "user": "Nwakaego-Ego"
+  },
+  {
+    "title": "Preview builds",
+    "url": "https://github.com/processing/processing-vscode-extension/issues/25",
+    "number": 25,
+    "owner": "processing",
+    "repo": "processing-vscode-extension",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "comments": 1,
+    "body": "To test if new developments work we need a way to preview new versions with a ci/cd on branches and on PRs",
+    "created_at": "2025-09-07T09:16:48Z",
+    "user": "Stefterv"
+  },
+  {
+    "title": "Set and Get Sources for p5.Input()",
+    "url": "https://github.com/processing/p5.sound.js/issues/57",
+    "number": 57,
+    "owner": "processing",
+    "repo": "p5.sound.js",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "comments": 2,
+    "body": "The original library had a getSources() and setSources() method for p5.Input(), new p5.sound should have this as well.",
+    "created_at": "2025-06-17T01:51:20Z",
+    "user": "ogbabydiesal"
+  },
+  {
+    "title": "Lint Bash scripts with shellcheck",
+    "url": "https://github.com/helm/helm/issues/31689",
+    "number": 31689,
+    "owner": "helm",
+    "repo": "helm",
+    "labels": [
+      "good first issue"
+    ],
+    "comments": 3,
+    "body": "I experimented with [ShellCheck](https://www.shellcheck.net/)\n\nThere is an effort to fix various warnings and conform with the style guidelines in a local [feature branch](https://github.com/atombrella/helm/tree/feature/bash_lint_workflow)\n\nThe [workflow](https://github.com/atombrella/helm/actions/runs/20640906017/job/59272416176) runs smoothly, and the `ubuntu-latest` agent already has `shellcheck` installed.\n\nThe `sync-repo` script has been simplified a bit, and otherwise, I removed the legacy `[ \"x$VAR\" != \"x\" ]` trick (among other things) that is no longer needed. Is the `get` script really still needed?\n\nI could open a PR if it is of interest. Unfortunately, the Slack channel requires an invite to join.",
+    "created_at": "2026-01-02T10:39:19Z",
+    "user": "atombrella"
+  }
+]
