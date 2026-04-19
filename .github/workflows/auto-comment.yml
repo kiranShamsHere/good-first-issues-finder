@@ -1,0 +1,37 @@
+name: 💬 Auto-Comment on Approved Issues
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  auto-comment:
+    # Only run when YOU (kiranShamsHere) comment on a digest issue
+    if: |
+      github.event.sender.login == 'kiranShamsHere' &&
+      contains(github.event.comment.body, 'approve')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Parse approved issue URLs and comment
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        run: |
+          python scripts/auto_comment.py \
+            --token "$GH_TOKEN" \
+            --comment "$COMMENT_BODY" \
+            --issues-file found-issues.json
