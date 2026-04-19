@@ -27,7 +27,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Run issue finder (save only — no auto-comment)
         env:
@@ -35,7 +37,6 @@ jobs:
         run: |
           EXTRA_ARGS=""
           if [ -n "${{ github.event.inputs.orgs }}" ]; then
-            # Convert comma-separated string to space-separated for argparse
             ORGS=$(echo "${{ github.event.inputs.orgs }}" | tr ',' ' ')
             EXTRA_ARGS="--orgs $ORGS"
           fi
@@ -67,10 +68,22 @@ jobs:
 
             const today = new Date().toISOString().slice(0, 10);
 
-            // Build issue body
+            // Create 'digest' label if it doesn't exist yet
+            try {
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'digest',
+                color: '0075ca',
+                description: 'Daily good-first-issues digest'
+              });
+            } catch (e) {
+              // Label already exists — that's fine
+            }
+
             let body = `## 🎯 Good First Issues Digest — ${today}\n\n`;
             body += `Found **${issues.length}** unassigned issues with no open PRs.\n\n`;
-            body += `> **How to approve:** Reply to this issue with the issue number(s) you want to comment on.\n`;
+            body += `> **How to approve:** Reply to this issue with the numbers you want.\n`;
             body += `> Example: \`approve #3 #7\`\n\n`;
             body += `---\n\n`;
 
