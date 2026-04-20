@@ -533,21 +533,6 @@
     "user": "niccokunzmann"
   },
   {
-    "title": "Tutorials/Organizing Code with Funtions: Comments say \"draw two trees\" but actually draw three",
-    "url": "https://github.com/processing/p5.js-website/issues/1319",
-    "number": 1319,
-    "owner": "processing",
-    "repo": "p5.js-website",
-    "labels": [
-      "Documentation",
-      "Good First Issue"
-    ],
-    "comments": 5,
-    "body": "<img width=\"551\" height=\"460\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6a57cd55-23ec-48dc-bec7-25e4d4f0b3b4\" />\n\n<img width=\"615\" height=\"584\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc4059e0-73bc-4660-a5ce-444fd32d8c2e\" />\n\nIn Step 6 of this tutorial, the comment line above the `trees()` function says `draw two trees`, but instead there are three trees in the `trees()` function.",
-    "created_at": "2026-04-08T09:03:32Z",
-    "user": "Chiuye"
-  },
-  {
     "title": "[main & 2.0] Side navigation dropdown arrows in both panels should have 27.5px top padding",
     "url": "https://github.com/processing/p5.js-website/issues/1295",
     "number": 1295,
@@ -558,7 +543,7 @@
       "Good First Issue",
       "Discussion"
     ],
-    "comments": 1,
+    "comments": 2,
     "body": "### Most appropriate sections of the p5.js website?\n\nReference\n\n### What is your operating system?\n\nWindows\n\n### Web browser and version\n\nChrome 146.0.7\n\n### Actual Behavior\n\nThe dropdown arrows in both the primary and secondary navigation panels do not have the correct top padding on both main and 2.0 branches. This is part of the ongoing CSS audit in #309.\n\n### Expected Behavior\n\nBoth dropdown arrows in the primary and secondary panels should have padding-top: 27.5px\n\n### Steps to reproduce\n\nGo to any page on p5js.org or beta.p5js.org that has a side navigation panel\nOpen Chrome DevTools\nInspect the dropdown arrows in both the primary and secondary panels\n\n### Would you like to work on the issue?\n\nOpen for anyone to work on",
     "created_at": "2026-04-02T14:42:14Z",
     "user": "Nwakaego-Ego"
@@ -606,5 +591,20 @@
     "body": "I experimented with [ShellCheck](https://www.shellcheck.net/)\n\nThere is an effort to fix various warnings and conform with the style guidelines in a local [feature branch](https://github.com/atombrella/helm/tree/feature/bash_lint_workflow)\n\nThe [workflow](https://github.com/atombrella/helm/actions/runs/20640906017/job/59272416176) runs smoothly, and the `ubuntu-latest` agent already has `shellcheck` installed.\n\nThe `sync-repo` script has been simplified a bit, and otherwise, I removed the legacy `[ \"x$VAR\" != \"x\" ]` trick (among other things) that is no longer needed. Is the `get` script really still needed?\n\nI could open a PR if it is of interest. Unfortunately, the Slack channel requires an invite to join.",
     "created_at": "2026-01-02T10:39:19Z",
     "user": "atombrella"
+  },
+  {
+    "title": "Change  `indent` to `nindent` for readability",
+    "url": "https://github.com/helm/helm-www/issues/1961",
+    "number": 1961,
+    "owner": "helm",
+    "repo": "helm-www",
+    "labels": [
+      "help wanted",
+      "good first issue"
+    ],
+    "comments": 2,
+    "body": "In general I think folks prefer `nindent` over `indent` now, for readability reasons.\r\n\r\n_Originally posted by @scottrigby in https://github.com/helm/helm-www/pull/1898#discussion_r2567574355_\r\n            ",
+    "created_at": "2025-11-27T23:48:46Z",
+    "user": "TerryHowe"
   }
 ]
