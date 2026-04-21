@@ -392,7 +392,7 @@
       "beginner friendly",
       "design sprint"
     ],
-    "comments": 2,
+    "comments": 3,
     "body": "## Navigation Icons Overlapping with Event Header on Mobile/Talk View\n\n\n### Describe the bug\nOn the Talk dashboard/event view, circular navigation/action icons are appearing directly below the main navigation tabs (Start, Tickets, Talk, Videos) and overlapping with the event information content. This creates a cluttered, confusing interface where multiple navigation layers compete for space in the header area.\n\n\n### Expected behavior\n- Circular action icons should either be:\n  - Properly positioned in a dedicated action bar with clear separation from navigation tabs\n- Navigation header should have clean visual hierarchy\n- No overlapping elements in the header region\n\n\n### Screenshots\n\n![Image](https://github.com/user-attachments/assets/517f1d2c-5718-4600-8e97-a45b8799bf6b)\n\n**Expected Beha",
     "created_at": "2026-01-31T07:45:45Z",
     "user": "ArnavBallinCode"
@@ -407,7 +407,7 @@
       "beginner friendly",
       "design sprint"
     ],
-    "comments": 2,
+    "comments": 3,
     "body": "<!-- Please only create issues for bug reports. Feature requests or general questions should start as a \"Discussion\" on GitHub. -->\n\n**Describe the bug**\nThe navigation buttons (Home, Tickets, Talk, Videos) display inconsistent border styling across different components of the EventYay platform. When viewing the Tickets component, the navigation buttons have sharp, rectangular corners, but when switching to the Talk component, the same navigation buttons display with rounded corners. This creates a jarring visual inconsistency that affects the overall user experience and design coherence.\n\n**Expected behavior**\nNavigation buttons should maintain consistent styling across all components of the platform. All navigation buttons (Home, Tickets, Talk, Videos) should have the same border-radius ",
     "created_at": "2025-10-30T12:56:25Z",
     "user": "ArnavBallinCode"
@@ -533,7 +533,7 @@
     "user": "niccokunzmann"
   },
   {
-    "title": "[main & 2.0] Side navigation dropdown arrows in both panels should have 27.5px top padding",
+    "title": "[main & 2.0] Arrow in side navigation of the primary menu needs to be vertically aligned to the p5 logo",
     "url": "https://github.com/processing/p5.js-website/issues/1295",
     "number": 1295,
     "owner": "processing",
@@ -543,8 +543,8 @@
       "Good First Issue",
       "Discussion"
     ],
-    "comments": 2,
-    "body": "### Most appropriate sections of the p5.js website?\n\nReference\n\n### What is your operating system?\n\nWindows\n\n### Web browser and version\n\nChrome 146.0.7\n\n### Actual Behavior\n\nThe dropdown arrows in both the primary and secondary navigation panels do not have the correct top padding on both main and 2.0 branches. This is part of the ongoing CSS audit in #309.\n\n### Expected Behavior\n\nBoth dropdown arrows in the primary and secondary panels should have padding-top: 27.5px\n\n### Steps to reproduce\n\nGo to any page on p5js.org or beta.p5js.org that has a side navigation panel\nOpen Chrome DevTools\nInspect the dropdown arrows in both the primary and secondary panels\n\n### Would you like to work on the issue?\n\nOpen for anyone to work on",
+    "comments": 3,
+    "body": "### Most appropriate sections of the p5.js website?\n\nReference\n\n### What is your operating system?\n\nWindows\n\n### Web browser and version\n\nChrome 146.0.7\n\n### Actual Behavior\n\n~~The dropdown arrows in both the primary and secondary navigation panels do not have the correct top padding on both main and 2.0 branches.~~ This is part of the ongoing CSS audit in #309.\n\nThe arrow next to the p5 logo in the primary side navigation menu needs to be vertically center aligned. See image below:\n\n<img width=\"170\" height=\"203\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/922521e9-a9be-4df6-b1c5-e6d6c5a9e780\" />\n\n### Expected Behavior\n\n~~Both dropdown arrows in the primary and secondary panels should have padding-top: 27.5px~~\nThe arrow should be vertically center aligned to the p5 logo on",
     "created_at": "2026-04-02T14:42:14Z",
     "user": "Nwakaego-Ego"
   },
